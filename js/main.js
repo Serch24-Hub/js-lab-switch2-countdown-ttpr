@@ -103,3 +103,4 @@ function CountDownToMario(endTime, divId) {
    🎉  BONUS  — optional extras
    ------------------------------------------------------
    • Add a confetti explosion (see confetti.js) - Check js in */
+   /* */
