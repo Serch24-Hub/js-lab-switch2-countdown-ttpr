@@ -70,7 +70,8 @@ function CountDownToMario(endTime, divId) {
   const seconds = pad(Math.floor((distance % _minute) / _second));
 
 
-  div.textContent = `${days} : ${hours} : ${minutes} : ${seconds}`;
+  div.textContent = `${days} Days ${hours} Hours ${minutes} Minutes ${seconds} Seconds`;
+  div.textContent = "days +"
 }
 
   /* STEP 4: Call `showRemaining()` once so the timer
